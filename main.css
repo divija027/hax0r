@@ -10,13 +10,13 @@
   margin-top: 0.2%;
   margin-bottom: 0%;
   font-family: 'Ubuntu Mono', monospace;
-  font-size: 100%;
+  font-size: 200%;
 
 }
 #red{
     color: red;
     font-family: 'Ubuntu Mono', monospace;
-    font-size: 70%;
+    font-size: 100%;
     margin: 0%;
 }
 
@@ -58,6 +58,27 @@
     .link1 {
       font-size: 4vw;
     }
+    #heading{
+  font-family: 'Righteous', cursive;
+  font-size: 5.2vw;; 
+  color: white;
+  margin: 0%;
+}
+
+#me{
+  font-size: 200%;
+  margin-top: 0.2%;
+  margin-bottom: 0%;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 100%;
+
+}
+#red{
+    color: red;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 70%;
+    margin: 0%;
+}
   }
   
   @media screen and (max-width: 765px) {
@@ -73,11 +94,53 @@
     .link1 {
       font-size: 5vw;
     }
+    #heading{
+  font-family: 'Righteous', cursive;
+  font-size: 5.2vw;; 
+  color: white;
+  margin: 0%;
+}
+
+#me{
+  font-size: 200%;
+  margin-top: 0.2%;
+  margin-bottom: 0%;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 100%;
+
+}
+#red{
+    color: red;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 70%;
+    margin: 0%;
+}
   }
   
   @media screen and (min-width: 1390px) {
     .header2 {
       font-size: 1.1vw;
     }
+    #heading{
+  font-family: 'Righteous', cursive;
+  font-size: 5.2vw;; 
+  color: white;
+  margin: 0%;
+}
+
+#me{
+  font-size: 200%;
+  margin-top: 0.2%;
+  margin-bottom: 0%;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 100%;
+
+}
+#red{
+    color: red;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 70%;
+    margin: 0%;
+}
   }
   
