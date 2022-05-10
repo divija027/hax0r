@@ -37,10 +37,6 @@
     border-radius: 50%;
   }
   
-.img-fluid {
-    max-width: 50%;
-    height: auto;
-}
 
   .link1 {
     font-family: 'Ubuntu Mono', monospace;
