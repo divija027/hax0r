@@ -12,7 +12,9 @@ text set in the data-text attribute. */
     /* Animation provies a slight random skew. Check bottom of doc
     for more information on how to random skew. */
     animation: glitch-skew 1s infinite linear alternate-reverse;
+    animation: flicker 3.732s infinite linear alternate-reverse;
   }
+
   .glitch::before {
     content: attr(data-text);
     position: absolute;
@@ -251,5 +253,27 @@ text set in the data-text attribute. */
     }
     100% {
       transform: skew(1deg);
+    }
+  }
+  
+  @keyframes flicker {
+    0%,
+    19.999%,
+    22%,
+    62.999%,
+    64%,
+    64.999%,
+    70%,
+    100% {
+      opacity: 0.99;
+    }
+    20%,
+    21.999%,
+    63%,
+    63.999%,
+    65%,
+    69.999% {
+      opacity: 0.4;
+      text-shadow: none;
     }
   }
